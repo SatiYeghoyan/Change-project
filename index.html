@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <table class="table table-hover">
+            <thead>
+         
+              </thead>
+              <tbody>
+           
+              </tbody>
+          </table>
+    </div>
+    <div class="container">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Currency Converter
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Currency Converter</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="container_Modal">
+                  <div class="content_modal_center">
+                    <div class="courses_content">
+                      <!-- Content -->
+                      <div class="card__content">
+                        <form>
+                          <h1 class="titel__content">Currency Converter</h1>
+            
+                          <div class="courses">
+                            <div class="course-item card card-body">
+                              <div class="course-item-title">Well USD</div>
+                              <div class="course-item-value" data-value="USD">--.--</div>
+                            </div>
+                            <div class="course-item card card-body">
+                              <div class="course-item-title">Well EUR</div>
+                              <div class="course-item-value" data-value="EUR">--.--</div>
+                            </div>
+                            <div class="course-item card card-body">
+                              <div class="course-item-title">Well AMD</div>
+                              <div class="course-item-value" data-value="AMD">--.--</div>
+                            </div>
+                          </div>
+            
+                          <div class="row mb-1">
+                            <div class="col">
+                              <label for="name">give:</label>
+                              <select
+                          
+                                class="form-control"
+                                id="exampleFormControlSelect1"
+                              >
+                                
+                              </select>
+                            </div>
+                            <div class="col">
+                              <label for="name">receive:</label>
+                              <select
+                                id="select"
+                                class="form-control"
+                                id="exampleFormControlSelect1"
+                              >
+                                
+                              </select>
+                            </div>
+                          </div>
+            
+                          <div class="row">
+                            <div class="col">
+                              <input
+                                id="input"
+                                type="number"
+                                class="form-control"
+                                id="name"
+                                autofocus
+                              />
+                            </div>
+                            <div class="col">
+                              <input
+                                id="result"
+                                type="number"
+                                class="form-control"
+                                id="name"
+                              />
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <!-- // Content -->
+                    </div>
+                    <!-- // col-6 -->
+                  </div>
+                  <!-- // row -->
+                </div>
+                <!-- // container -->
+        
+            </div>
+        
+        
+        
+              <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
